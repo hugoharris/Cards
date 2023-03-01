@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>The Guitar Card Test Site</h1>
       <main>
         <div className="guitar-list">
           {guitarList}
