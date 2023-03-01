@@ -7,7 +7,7 @@ export default function (props) {
         <h2>{props.guitar.make}</h2>
         <h3>{props.guitar.model}</h3>
         <p>{props.guitar.year}</p>
-        <p className="in-stock">In stock:{props.guitar.available ? "Yes" : "No"}</p>
+        <p className="in-stock">In stock: {props.guitar.available ? "Yes" : "No"}</p>
     </div>
   )
 }
