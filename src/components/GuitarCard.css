@@ -1,0 +1,17 @@
+.guitar-card {
+    flex: 0 0 250px;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 6px 6px 3px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+.in-stock {
+    font-weight: 700;
+}
